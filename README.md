@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# ChatApp
 
-Things you may want to cover:
+This is a simple app that allows users to create chatrooms and chat with people in each chatroom.
 
-* Ruby version
+## Required stories
 
-* System dependencies
+- [x] Visitor can sign up and log in
+- [x] User can see a list of chatrooms on the home page
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+... (add as many stories you can think of here)
