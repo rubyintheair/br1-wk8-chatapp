@@ -11,5 +11,6 @@ App.annoucement = App.cable.subscriptions.create("AnnoucementChannel", {
   received: function(data) {
     // Called when there's incoming data on the websocket for this channel
     console.log("#announcement recieved:", data);
+    $(".navbar").after(data.html);
   }
 });
