@@ -12,6 +12,8 @@ function setupRoom(roomId) {
 
       received: function(data) {
         // Called when there's incoming data on the websocket for this channel
+        console.log("#ChatChannel received: ", data);
+        $(".js-chat-messages").append(data.html);
       }
     }
   );
